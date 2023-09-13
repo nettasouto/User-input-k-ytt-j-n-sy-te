@@ -24,7 +24,11 @@ public class Kayttajansuoteharjoitus {
 		System.out.println("Mikä on etunimesi?");
 		answer6 = in.nextLine();
 		
-
+		// Lisätty muutos/committi: Kysy sukunimeä käyttäjältä
+		String answer7;
+		System.out.println("Mikä on sukunimesi?");
+		answer7 = in.nextLine();
+		
 		
 
 //		1. Pyydä käyttäjää kirjoittamaan numero
