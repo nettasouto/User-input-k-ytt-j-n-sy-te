@@ -29,7 +29,8 @@ public class Kayttajansuoteharjoitus {
 		System.out.println("Mikä on sukunimesi?");
 		answer7 = in.nextLine();
 		
-		
+		// Lisätty muutos/comitti: Ohjelma tulostaa käyttäjän koko nimen.
+		System.out.println("Nimesi on " + answer6 + " " + answer7 + ".");
 
 //		1. Pyydä käyttäjää kirjoittamaan numero
 		System.out.println("Kirjoita 1. numero");
