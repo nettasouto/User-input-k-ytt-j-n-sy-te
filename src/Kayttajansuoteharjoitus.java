@@ -17,6 +17,15 @@ public class Kayttajansuoteharjoitus {
 		String answer3;
 		int sum;
 		int miinus;
+		
+		
+		// Lisätty muutos/commit: Kysy nimeä käyttäjältä
+		String answer6;
+		System.out.println("Mikä on etunimesi?");
+		answer6 = in.nextLine();
+		
+
+		
 
 //		1. Pyydä käyttäjää kirjoittamaan numero
 		System.out.println("Kirjoita 1. numero");
